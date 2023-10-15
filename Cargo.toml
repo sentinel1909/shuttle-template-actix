@@ -1,6 +1,6 @@
 [package]
 name = "actix-template"
-version = "1.1.0"
+version = "1.1.1"
 edition = "2021"
 description = "Template for an Actix server app, hosted on Shuttle"
 readme = "README.md"
