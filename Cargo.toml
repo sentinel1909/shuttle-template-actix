@@ -1,6 +1,6 @@
 [package]
 name = "actix-web-template"
-version = "1.38.0"
+version = "1.39.0"
 edition = "2021"
 description = "Template for an Actix server app, hosted on Shuttle"
 readme = "README.md"
@@ -20,10 +20,10 @@ name = "actix_web_template_lib"
 path = "src/lib/lib.rs"
 
 [dependencies]
-actix-cors = "0.6.4"
-actix-web = "4.4.1"
-shuttle-actix-web = "0.38.0"
-shuttle-runtime = { version = "0.38.0", default-features = false }
+actix-cors = "0.7.0"
+actix-web = "4.5.1"
+shuttle-actix-web = "0.39.0"
+shuttle-runtime = { version = "0.39.0", default-features = false }
 tokio = "1.36.0"
 tracing = "0.1.40"
 tracing-actix-web = "0.7.8"
